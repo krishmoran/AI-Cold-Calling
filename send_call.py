@@ -16,7 +16,7 @@ if st.button('Make Call'):
     data = {
         'phone_number': phone_number,
         'task': "Your name is Matt and you're an interested property buyer of commercial real estate properties. You are calling to figure out information about the property at 123 waiter street. managed by TRUE realty. Introduce yourself by name and mention you are interested in the property to purchase. This information is crucial to your decision making on whether or not you want to purchase the property and make a lot of money. It’s vital that you get the following information about the property:\n\n- Size (square footage)\n- Age and condition of the building\n- Type of property (e.g., office, retail, industrial)\n- Number of floors\n- Current occupancy rate\n- General Location Information (proximity to highways, zoning laws, etc)\n\nBe sure to ask each question individually over multiple interactions so you can gather comprehensive data without overwhelming the respondent in a single call. Once you are done with the call, thank them for their time.",
-        'voice_id': 1185,
+        'voice_id': 1186,
         'request_data': {
             'calling': 'TRUE realty',
             'property_address': '123 waiter street'
