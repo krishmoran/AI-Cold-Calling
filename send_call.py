@@ -6,7 +6,7 @@ headers = {
     'authorization': 'sk-4bh9aqg9prmlds81iotfcy8t0413n4r2nmb1er3lfc1ne8t4npa333ueoede0etd69'
 }
 
-st.title('Tidecove AI Cold Calling Demo')
+st.title('Tidecove AI Cold Calling / Data Collection Demo')
 # Streamlit input
 phone_number = st.text_input('Enter your phone number')
 
