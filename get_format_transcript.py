@@ -6,7 +6,6 @@ def retrieve_transcript():
     headers = {
         'authorization': 'sk-4bh9aqg9prmlds81iotfcy8t0413n4r2nmb1er3lfc1ne8t4npa333ueoede0etd69'
     }
-
     # Data
     data = {
         'call_id': '934daaf5-2300-4585-9edc-bfe461a7bac8',
