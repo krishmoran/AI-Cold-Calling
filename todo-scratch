@@ -1,0 +1,15 @@
+
+
+frontend (i.e. react app) 
+
+-upload spreadsheet of phone numbers and addresses, parse into json (or whatever format bland needs)
+- make bland batch call request, using webhook api endpoint as variable
+
+backend (i.e. batch webhook endpoint) 
+- receives batch id and transcript data once calls are done
+- send analyze(batch id) to bland /analyze endpoint, get response in outputted json
+- format json into proper key:value pair of the needed property data (i.e. {"address": xyz, "occupancy_rate": 90%, "available_units": 5})
+- send json to upload as google sheet, or update a current sheet 
+
+
+-- use base spreadsheet as template, and update the data in the sheet with the new data from the json
