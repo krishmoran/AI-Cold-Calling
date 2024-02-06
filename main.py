@@ -87,8 +87,6 @@ def main():
     "reduce_latency": True
 }
 
-    count_of_calls = len(data['call_data'])
-
     payload = {
     "goal": "to collect different data points about many commercial real estate properties, and output that into structured data",
     "questions": [
