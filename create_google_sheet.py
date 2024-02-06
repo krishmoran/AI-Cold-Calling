@@ -27,8 +27,6 @@ def create_google_sheet(data):
     # Get the link to access the Google Sheets file
     spreadsheet_url = f"https://docs.google.com/spreadsheets/d/{spreadsheet.id}"
 
-
-
     print(spreadsheet_url)
 
     return spreadsheet_url
